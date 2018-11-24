@@ -46,9 +46,6 @@
     <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Azylee.Core, Version=1.0.0.5, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Azylee.Core.1.0.0.5\lib\Azylee.Core.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Configuration" />
@@ -147,7 +144,6 @@
     <EmbeddedResource Include="Views\SettingsForm.resx">
       <DependentUpon>SettingsForm.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="packages.config" />
     <None Include="Properties\app.manifest">
       <SubType>Designer</SubType>
     </None>
@@ -189,6 +185,10 @@
     <Content Include="Images\WaitingGif\Wait-Hor.gif" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Common.Utils\Azylee.Core\Azylee.Core.csproj">
+      <Project>{88dc61fa-95f0-41b7-9d7d-ab0f3cbd169c}</Project>
+      <Name>Azylee.Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Common.Utils\Azylee.WinformSkin\Azylee.WinformSkin.csproj">
       <Project>{D280C16F-FDE2-4647-BD76-3514F673426D}</Project>
       <Name>Azylee.WinformSkin</Name>

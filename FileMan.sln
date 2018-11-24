@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oreo.FileMan", "Oreo.FileMa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azylee.WinformSkin", "Common.Utils\Azylee.WinformSkin\Azylee.WinformSkin.csproj", "{D280C16F-FDE2-4647-BD76-3514F673426D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azylee.Core", "Common.Utils\Azylee.Core\Azylee.Core.csproj", "{88DC61FA-95F0-41B7-9D7D-AB0F3CBD169C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "工具类", "工具类", "{3F36C131-6145-4D59-A8F3-FFF977029DA7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,9 +31,17 @@ Global
 		{D280C16F-FDE2-4647-BD76-3514F673426D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D280C16F-FDE2-4647-BD76-3514F673426D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D280C16F-FDE2-4647-BD76-3514F673426D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88DC61FA-95F0-41B7-9D7D-AB0F3CBD169C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88DC61FA-95F0-41B7-9D7D-AB0F3CBD169C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88DC61FA-95F0-41B7-9D7D-AB0F3CBD169C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88DC61FA-95F0-41B7-9D7D-AB0F3CBD169C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D280C16F-FDE2-4647-BD76-3514F673426D} = {3F36C131-6145-4D59-A8F3-FFF977029DA7}
+		{88DC61FA-95F0-41B7-9D7D-AB0F3CBD169C} = {3F36C131-6145-4D59-A8F3-FFF977029DA7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C06D19EA-934D-44A1-A069-2AAFE9A00926}
